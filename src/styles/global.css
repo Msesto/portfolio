@@ -1,4 +1,13 @@
 @tailwind base;
+* {
+  @apply box-border;
+}
+html, body, #___gatsby, #gatsby-focus-wrapper {
+  @apply h-full;
+}
+#gatsby-focus-wrapper{ 
+  @apply flex flex-col;
+}
 @tailwind components;
 @tailwind utilities;
 

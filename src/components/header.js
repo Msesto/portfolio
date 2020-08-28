@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import tw, { css } from "twin.macro"
 
 const padMe = css`
-  padding : 0.5rem calc((100vw - 550px)/2);
+  padding : 0.5rem calc((100vw - 800px)/2);
 `
 
 const linkMe = css`
@@ -21,7 +21,7 @@ const Header = () => {
     <header css={[tw`flex bg-gray-400 p-2 justify-between`, padMe]}>
       <Link to="/" className={tw`text-base font-medium leading-tight`}>Martin Sesto</Link>
       <nav css={tw``}>
-        <Link activeClassName="current-page" to="/About" css={[tw`p-8 text-base font-medium leading-tight`, linkMe]}>About</Link>
+        <Link activeClassName="current-page" to="/About" css={[tw`p-12 text-base font-medium leading-tight`, linkMe]}>About</Link>
         <Link activeClassName="current-page" to="/Projects" css={[tw`p-8 text-base font-medium leading-tight`, linkMe]}>Projects</Link>
         <Link activeClassName="current-page" to="/Technologies" css={[tw`p-8 text-base font-medium leading-tight`, linkMe]}>Technologies</Link>
         <Link activeClassName="current-page" to="/Resume" css={[tw`p-8 text-base font-medium leading-tight`, linkMe]}>Resume</Link>
