@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pad-to-nav { 
+  padding: 0.5rem calc((100vw - 550px)/2);
+}

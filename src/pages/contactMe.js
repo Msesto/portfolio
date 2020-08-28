@@ -2,7 +2,7 @@ import React from "react"
 import tw from "twin.macro"
 import Layout from "../components/layout"
 
-const Projects = () => {
+const Contact = () => {
   return (
     <Layout>
       <h1>heeey world!</h1>
@@ -10,4 +10,4 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default Contact
