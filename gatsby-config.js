@@ -19,5 +19,11 @@ module.exports = {
         // Accepts all options defined by `babel-plugin-emotion` plugin.
       },
     },
+    {
+      resolve: `gatsby-plugin-react-helmet`,
+      options: {
+
+      },
+    },
   ],
 }
