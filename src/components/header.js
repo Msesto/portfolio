@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import tw, { css } from "twin.macro"
 
 const padMe = css`
-  padding : 0.5rem calc((100vw - 800px)/2);
+  padding : 0.5rem calc((100vw - 850px)/2);
 `
 
 const linkMe = css`
@@ -19,13 +19,14 @@ const linkMe = css`
 const Header = () => {
   return (
     <header css={[tw`flex bg-gray-400 p-2 justify-between`, padMe]}>
-      <Link to="/" className={tw`text-base font-medium leading-tight`}>Martin Sesto</Link>
-      <nav css={tw``}>
-        <Link activeClassName="current-page" to="/About" css={[tw`p-12 text-base font-medium leading-tight`, linkMe]}>About</Link>
-        <Link activeClassName="current-page" to="/Projects" css={[tw`p-8 text-base font-medium leading-tight`, linkMe]}>Projects</Link>
-        <Link activeClassName="current-page" to="/Technologies" css={[tw`p-8 text-base font-medium leading-tight`, linkMe]}>Technologies</Link>
-        <Link activeClassName="current-page" to="/Resume" css={[tw`p-8 text-base font-medium leading-tight`, linkMe]}>Resume</Link>
-        <Link activeClassName="current-page" to="/contactMe" css={[tw`p-8 text-base font-medium leading-tight`, linkMe]}>Contact me!</Link>
+      <Link to="/" css={tw`text-4xl font-bold leading-tight`}>Martin Sesto</Link>
+      <nav css={tw`m-auto mx-0`}>
+        <Link activeClassName="current-page" to="/About" css={[tw`m-1 text-base font-medium leading-tight`, linkMe]}>About</Link>
+        <Link activeClassName="current-page" to="/Projects" css={[tw`m-1 text-base font-medium leading-tight`, linkMe]}>Projects</Link>
+        <Link activeClassName="current-page" to="/Technologies" css={[tw`m-1 text-base font-medium leading-tight`, linkMe]}>Technologies</Link>
+        <Link activeClassName="current-page" to="/Resume" css={[tw`m-1 text-base font-medium leading-tight`, linkMe]}>Resume</Link>
+        <Link activeClassName="current-page" to="/Blog" css={[tw`m-1 text-base font-medium leading-tight`, linkMe]}>Blog</Link>
+        <Link activeClassName="current-page" to="/contactMe" css={[tw`m-1 text-base font-medium leading-tight`, linkMe]}>Contact me!</Link>
       </nav>
     </header >
   )

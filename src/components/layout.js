@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header />
-      <div css={[tw`flex-auto m-auto w-11/12 max-w-5xl`]}>{children}</div>
+      <div css={[tw`flex-auto m-auto w-11/12 max-w-5xl bg-gray-400`]}>{children}</div>
       <Footer />
     </>
 
