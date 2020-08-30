@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
         <title>Martin Sesto's Portfolio</title>
       </Helmet>
       <Header />
-      <div css={[tw`flex-auto m-auto w-11/12 max-w-5xl bg-gray-400`]}>{children}</div>
+      <main css={[tw`flex-auto m-auto w-11/12 max-w-5xl bg-gray-400`]}>{children}</main>
       <Footer />
     </>
 
