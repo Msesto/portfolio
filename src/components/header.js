@@ -25,7 +25,7 @@ const Header = () => {
         <Link activeClassName="current-page" to="/Projects" css={[tw`m-1 text-base font-medium leading-tight`, linkMe]}>Projects</Link>
         <Link activeClassName="current-page" to="/Technologies" css={[tw`m-1 text-base font-medium leading-tight`, linkMe]}>Technologies</Link>
         <Link activeClassName="current-page" to="/Resume" css={[tw`m-1 text-base font-medium leading-tight`, linkMe]}>Resume</Link>
-        <Link activeClassName="current-page" to="/Blog" css={[tw`m-1 text-base font-medium leading-tight`, linkMe]}>Blog</Link>
+        <Link activeClassName="current-page" to="/blog" css={[tw`m-1 text-base font-medium leading-tight`, linkMe]}>Blog</Link>
         <Link activeClassName="current-page" to="/contactMe" css={[tw`m-1 text-base font-medium leading-tight`, linkMe]}>Contact me!</Link>
       </nav>
     </header >
