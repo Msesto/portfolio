@@ -7,19 +7,19 @@ const padMe = css`
 `
 
 const linkMe = css`
-  color: #222;
+  color: #fff;
   padding: 0.25rem;
   margin: 0 0 0.5rem 0 0;
 
   &.current-page{
-    border-bottom: 2px solid #222;
+    border-bottom: 2px solid #ffa500;
    }
 `
 
 const Header = () => {
   return (
-    <header css={[tw`flex bg-gray-400 p-2 justify-between`, padMe]}>
-      <Link to="/" css={tw`text-4xl font-bold leading-tight`}>Martin Sesto</Link>
+    <header css={[tw`flex p-2 justify-between`, padMe]}>
+      <Link to="/" css={tw`text-white text-4xl leading-tight`}>MARTIN<strong>SESTO</strong></Link>
       <nav css={tw`m-auto mx-0`}>
         <Link activeClassName="current-page" to="/about" css={[tw`m-1 text-base font-medium leading-tight`, linkMe]}>About</Link>
         <Link activeClassName="current-page" to="/projects" css={[tw`m-1 text-base font-medium leading-tight`, linkMe]}>Projects</Link>
