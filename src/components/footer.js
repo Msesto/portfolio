@@ -37,10 +37,10 @@ const Footer = () => {
 
   return (
     <footer css={tw`flex-shrink-0 mt-auto flex flex-no-wrap justify-around`}>
-      <a href="https://www.linkedin.com/in/martin-esteban-sesto/"><FaLinkedin css={[rIcons, linkedIn]} /></a>
+      <a href="https://twitter.com/11Sesto"><FaTwitterSquare css={[rIcons, twitter]} /></a>
       <a href="https://github.com/Msesto"><FaGithubSquare css={rIcons} /> </a>
       <a href="https://www.hackerrank.com/sesto?hr_r=1"><FaHackerrank css={[rIcons, hRank]} /></a>
-      <a href="https://twitter.com/11Sesto"><FaTwitterSquare css={[rIcons, twitter]} /></a>
+      <a href="https://www.linkedin.com/in/martin-esteban-sesto/"><FaLinkedin css={[rIcons, linkedIn]} /></a>
       <a href="https://www.instagram.com/11sesto/"><FaInstagram css={[rIcons, insta]} /> </a>
     </footer>
   )
