@@ -5,7 +5,9 @@ import Layout from "../components/layout"
 const Home = () => {
   return (
     <Layout>
-      <h1></h1>
+      <main css={tw`flex w-9/12 h-full items-center`}>
+        <p css={tw`text-2xl md:w-9/12 m-auto`}> Hi, I'm an enthusiastic software developer, currently an engineering student and learning modern web development by myself.</p>
+      </main>
     </Layout >
   )
 }
