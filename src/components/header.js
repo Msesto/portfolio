@@ -13,7 +13,7 @@ const linkMe = css`
   margin: 0 0 0.5rem 0 0;
 
   &.current-page{
-    border-bottom: 2px solid #ffa500;
+    border-bottom: 2px solid #ed8936;
    }
 `
 
