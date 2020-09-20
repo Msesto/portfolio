@@ -5,6 +5,7 @@ import { slide as Menu } from "react-burger-menu"
 
 const padMe = css`
   padding : 0.5rem calc((100vw - 850px)/2);
+  margin-left: 10px;
 `
 
 const linkMe = css`
@@ -30,7 +31,7 @@ const Header = () => {
         <Link activeClassName="current-page" to="/contact" css={[tw`m-1 text-base font-medium leading-tight`, linkMe]}>Contact</Link>
       </nav>
       <div css={tw`md:hidden`}>
-        <Menu css={tw`md:hidden`} isOpen={true}>
+        <Menu css={tw`md:hidden`} width={'150px'} isOpen={true}>
           <Link activeClassName="current-page" to="/" css={[tw`m-1 text-base font-medium leading-tight`, linkMe]}>About</Link>
           <Link activeClassName="current-page" to="/projects" css={[tw`m-1 text-base font-medium leading-tight`, linkMe]}>Projects</Link>
           <Link activeClassName="current-page" to="/technologies" css={[tw`m-1 text-base font-medium leading-tight`, linkMe]}>Technologies</Link>
