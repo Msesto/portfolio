@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Helmet>
-        <html lang="es" />
+        <html lang="en" />
         <title>Martin Sesto's Portfolio</title>
       </Helmet>
       <Header />
