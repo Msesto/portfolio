@@ -44,7 +44,7 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/martin-esteban-sesto/"><FaLinkedin css={[rIcons, linkedIn]} /></a>
         <a href="https://www.instagram.com/11sesto/"><FaInstagram css={[rIcons, insta]} /> </a>
       </footer>
-      <p css={tw`text-xs m-auto text-gray-400 mb-1`}>Developed by Martin Sesto</p>
+      <p css={tw`text-xs m-auto text-gray-400 mb-1`}>Developed by Martin Sesto, pss still under development</p>
     </>
   )
 }

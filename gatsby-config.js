@@ -8,6 +8,16 @@ module.exports = {
   /* Your site config here */
   plugins: [
     {
+      resolve: `gatsby-transformer-sharp`,
+      options: {
+      },
+    },
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+      },
+    },
+    {
       resolve: `gatsby-plugin-postcss`,
       options: {
         // Accepts all options defined by `gatsby-plugin-postcss` plugin.
@@ -30,7 +40,9 @@ module.exports = {
       options: {
         defaultLayouts: {
           default: require.resolve('./src/components/layout.js')
-        }
+        },
+        gatsbyRemarkPlugins: ['gatsby-remark-images'],
+        plugins: ['gatsby-remark-images'],
       }
     },
     {
@@ -38,6 +50,13 @@ module.exports = {
       options: {
         name: "posts",
         path: "posts",
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: "images",
+        path: "images",
       }
     },
   ],
