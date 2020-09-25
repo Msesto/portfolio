@@ -11,7 +11,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "deploy": "gatsby-plugin-s3 deploy"
   },
   "dependencies": {
     "@emotion/core": "^10.0.35",
@@ -25,6 +26,7 @@
     "gatsby-plugin-mdx": "^1.2.39",
     "gatsby-plugin-postcss": "^2.3.11",
     "gatsby-plugin-react-helmet": "^3.3.10",
+    "gatsby-plugin-s3": "^0.3.5",
     "gatsby-plugin-sharp": "^2.6.36",
     "gatsby-remark-images": "^3.3.30",
     "gatsby-source-filesystem": "^2.3.29",

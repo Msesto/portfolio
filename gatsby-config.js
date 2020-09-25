@@ -13,6 +13,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: "mesg-portfolio",
+      },
+    },
+    {
       resolve: `gatsby-plugin-sharp`,
       options: {
       },
