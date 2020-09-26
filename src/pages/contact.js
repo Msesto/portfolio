@@ -54,7 +54,7 @@ const Contact = () => {
             <label css={tw`mt-2 md:mt-6 block`}>Message:</label>
             <textarea css={tw`md:mt-1 text-gray-700 mb-1 md:mb-4 h-24 p-2 rounded w-full`} type="text" name="message" placeholder="Enter your message"></textarea>
           </div>
-          <button css={tw`p-1 w-1/3 text-3xl font-light text-gray-700 rounded-md bg-orange-500 mt-2`} type="submit" disabled={serverState.submitting}>
+          <button css={tw`p-1 w-1/3 text-3xl font-light text-black rounded-md bg-orange-500 mt-2`} type="submit" disabled={serverState.submitting}>
             Submit
           </button>
           {serverState.status && (<p className={!serverState.status.ok ? "errorMsg" : ""}>{serverState.status.msg}</p>)}

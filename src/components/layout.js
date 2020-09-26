@@ -5,6 +5,10 @@ import "../styles/global.css"
 import Header from "./header"
 import Footer from "./footer"
 
+const dHeight = css`
+  height: calc(100% - 127px);
+`
+
 const Layout = ({ children }) => {
   return (
     <>
@@ -13,7 +17,7 @@ const Layout = ({ children }) => {
         <title>Martin Sesto's Portfolio</title>
       </Helmet>
       <Header />
-      <main css={[tw`flex-auto m-auto w-11/12 max-w-5xl`]}>{children}</main>
+      <main css={[tw`flex m-auto w-11/12 max-w-5xl`, dHeight]}>{children}</main>
       <Footer />
     </>
 
