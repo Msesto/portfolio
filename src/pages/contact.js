@@ -38,7 +38,7 @@ const Contact = () => {
   return (
     <Layout>
 
-      <div>
+      <section css={tw``}>
         <h3 css={tw`mt-6 leading-tight text-3xl`}>Submit a contact form</h3>
         <p css={tw`ml-4 leading-none font-light text-sm`}>If the form isn't working, email me at: <span css={tw`select-all cursor-pointer`}><em>sesto@outlook.com</em></span></p>
         <form css={tw`items-center flex flex-col`} onSubmit={handleOnSubmit}>
@@ -59,7 +59,7 @@ const Contact = () => {
           </button>
           {serverState.status && (<p className={!serverState.status.ok ? "errorMsg" : ""}>{serverState.status.msg}</p>)}
         </form>
-      </div>
+      </section>
     </Layout >
 
   )

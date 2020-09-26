@@ -17,7 +17,7 @@ const Layout = ({ children }) => {
         <title>Martin Sesto's Portfolio</title>
       </Helmet>
       <Header />
-      <main css={[tw`flex m-auto w-11/12 max-w-5xl`, dHeight]}>{children}</main>
+      <main css={[tw`m-auto mt-12 w-11/12 max-w-5xl`, dHeight]}>{children}</main>
       <Footer />
     </>
 
