@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 const Technologies = () => {
   return (
     <Layout>
-      <h1>heeey world!</h1>
+      <p>Technologies I've used</p>
     </Layout>
   )
 }

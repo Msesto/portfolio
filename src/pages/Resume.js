@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 const Resume = () => {
   return (
     <Layout>
-      <h1>heeey world!</h1>
+      <p>curriculum here</p>
     </Layout>
   )
 }

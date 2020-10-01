@@ -11,7 +11,7 @@ const Blog = () => {
     <Layout>
       <div css={tw`mt-4`}>
         <h1 css={tw`font-bold text-3xl`}>Blog post & random resources:</h1>
-        <h5 css={tw`font-thin text-base italic`}>Here you can find some writings from my learning experience, mostly about technology.</h5>
+        <p css={tw`font-thin text-base italic`}>Here you can find some writings from my learning experience, mostly about technology.</p>
         {posts.map(post => (
           <PostPreview key={post.slug} post={post} />
         ))}
